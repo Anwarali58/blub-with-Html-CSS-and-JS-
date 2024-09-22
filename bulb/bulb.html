@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+      
+        background-color:cadetblue;
+        margin: 0 auto;
+        font-size: 34px;
+        font-weight: bold;
+        height: 100vh;
+        text-align: center;
+        padding: 50px;
+    }
+    .container h1{
+        margin:0;
+        padding:40px;
+
+    }
+    .conainer img{
+        width:250px;
+        height:400px
+    }
+    .btn{
+        font-size: 16px;
+        border: solid 2px black;
+        border-radius: 15px;
+        background-color: rgb(226 141 19 / 78%);
+cursor: pointer;
+        margin: 20px;
+        padding: 10px 15px;
+        color: black;
+      
+    }
+    #bulb{
+        width: 250px;
+        height: 250px;
+    }
+    
+</style>
+<body>
+    <div class="container">
+        <h1>Bulb On/Off </h1>
+        <button class="btn" onclick="document.getElementById('bulb').src='bulb-on.png.png'">Bulb On</button>
+        <img  id="bulb" src="bulb off png.png" alt="image loading" width="100px">
+        <button   class="btn" onclick="document.getElementById('bulb').src='bulb off png.png'">Bulb off</button>
+        
+    </div>
+   
+</body>
+
+</html>
